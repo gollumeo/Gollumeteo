@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    src: url("fonts/MontserratAlternates-Regular.ttf") format("truetype");
+}
