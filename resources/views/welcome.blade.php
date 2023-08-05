@@ -8,7 +8,7 @@
         @vite('resources/css/app.css')
         @livewireStyles
     </head>
-    <body class="bg-blue-100 text-gray-700 antialiased dark:bg-slate-800 dark:text-gray-300 max-h-screen">
+    <body class="bg-blue-100 text-gray-700 antialiased dark:bg-slate-800 dark:text-gray-300 max-h-screen text-justify">
         <header>
             <livewire:header />
         </header>
