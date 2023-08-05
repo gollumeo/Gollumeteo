@@ -8,11 +8,12 @@
         @vite('resources/css/app.css')
         @livewireStyles
     </head>
-    <body class="bg-blue-100 text-gray-700 antialiased dark:bg-slate-800 dark:text-gray-300">
+    <body class="bg-blue-100 text-gray-700 antialiased dark:bg-slate-800 dark:text-gray-300 max-h-screen">
         <header>
             <livewire:header />
         </header>
         <main>
+            <livewire:weather-app-component />
         </main>
         @livewireScripts
         <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js"></script>

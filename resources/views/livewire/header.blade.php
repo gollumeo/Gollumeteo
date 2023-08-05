@@ -1,4 +1,4 @@
-<div class="w-full border-b border-b-gray-700 md:h-28 sticky bg-blue-200 text-gray-700 dark:bg-slate-900 dark:text-gray-300 dark:border-b-gray-300 flex">
+<div class="w-full border-b border-b-gray-700 md:h-28 sticky bg-blue-200 dark:bg-slate-900 dark:border-b-gray-300 flex">
     <div class="flex flex-row items-center">
         <h1 class="my-auto p-4 md:text-3xl text-xl">Golluméteo</h1>
         <img src="{{asset('img/meteo.png')}}"
